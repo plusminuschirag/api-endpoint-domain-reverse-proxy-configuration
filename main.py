@@ -5,9 +5,9 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Endpoint is up!!"}
 
 
 @app.get("/me")
 async def me():
-    return {"message": "Me Endpoint"}
+    return {"message": "This endpoint is about my handle @plusminuschirag go find me on linkedin and github"}
